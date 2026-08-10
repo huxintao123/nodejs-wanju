@@ -3,8 +3,8 @@
 # 喜欢就点亮星星，不知道的参数保持默认
 
 # =======CF隧道设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-''}  # 隧道token或json
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+export TOK=${TOK:-'eyJhIjoiYTU2YjNlMWIxMzk1ZWQ0YTEyY2U1ZTA5YmQyYmMzZTMiLCJ0IjoiM2VjOWFjOWEtOTgxNi00ZmY5LThmYWYtZjNkYWU3ZGJmZDFjIiwicyI6Ik5EaGtOVEUzTUdRdE1XWmhZeTAwWWpJeUxXRmlORGd0TkRrMllqWmlZVFF4T1dRMiJ9'}  # 隧道token或json
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'jss.zsyc.ccwu.cc'} # 隧道域名
 # export TUNNEL_PROXY=${TUNNEL_PROXY:-''} # socks5代理
 
 
@@ -33,7 +33,7 @@ export VL_PORT=${VL_PORT:-'8002'} #vles 端口
 export VM_PORT=${VM_PORT:-'8001'} #vmes 端口
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'argo'} # 节点名称，配合哪吒面板v1可以自动设置面板名称
-#export UUID=${UUID:-'9e0da28d-ee9c-4fef-95a4-df2d0335e649'} # 设置节点固定的UUID,否则使用随机UUID
+#export UUID=${UUID:-'4efe7653-fb52-4259-aa9f-0a0446e090c6'} # 设置节点固定的UUID,否则使用随机UUID
 # export SNI=${SNI:-'www.apple.com'} # 指定reality借用的tls网站，否则使用默认
 # export HOST=${HOST:-'1.1.1.1'} # 指定hy2,tuic,reality使用的ip或域名,否则自动获取
 
